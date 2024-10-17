@@ -1,0 +1,99 @@
+.container {
+    padding: 10px;
+}
+
+.container .table {
+    overflow-x: hidden;
+}
+
+.btn-editar {
+    width: 65%;
+}
+
+label {
+    font-weight: bold;
+    color: #707070;
+}
+
+@media (max-width: 900px) {
+
+    .actions-links {
+
+        flex-direction: column;
+
+        gap: 2px;
+
+        display: flex !important;
+
+        flex-wrap: wrap !important;
+
+    }
+
+ 
+    .container-index {
+
+        width: 100%;
+
+        overflow-x: hidden;
+
+    }
+ 
+    .card {
+
+        margin: 0 auto;
+
+    }
+ 
+    .nav-conect {
+
+        text-align: center;
+
+    }
+ 
+    .cards-index .links-index .btn {
+
+        width: 100%;
+
+        text-align: center;
+
+        margin: 5px auto;
+
+        padding: 10px 0px;
+
+    }
+ 
+    .login-form-control {
+
+        font-size: 0.875rem;
+
+        padding: 0.375rem 0.75rem;
+
+        height: calc(1.5em + 0.75rem + 2px);
+
+    }
+ 
+    .login-form-label {
+
+        opacity: 0.6;
+
+    }
+ 
+    .form-floating .form-control {
+
+        height: calc(2.25rem + 2px);
+
+    }
+ 
+    .img-flex  {
+
+        max-width: 100%;
+
+        height: auto;
+
+        display: block;
+
+        margin: 0 auto;
+
+    }
+
+}
